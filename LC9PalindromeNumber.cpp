@@ -4,15 +4,21 @@ class Solution {
 public:
     bool isPalindrome(int x) {
 
+        // LC:9 Palindrome Number
+        // https://leetcode.com/problems/palindrome-number/description/
+
+        //checking for negative
         // if(x < 0) {
         //     return false;
         // }
 
+        //checking for single digit numbers from 0 to 9
         // if(x < 10) {
         //     return true;
         // }
 
-        // Numbers ending in 0 (except 0 itself) cannot be palindromes e.g. 340, 10, 7000, 
+        // Numbers ending in 0 (except 0 itself) cannot be palindromes e.g. 340, 10, 7000
+        //checking for x ending in 0, and start as non zero 
         // if (x % 10 == 0 && x != 0) { 
         //     return false;
         // }
