@@ -6,8 +6,8 @@ class Solution {
 public:
     bool isArraySpecial(vector<int>& nums) {
 
-        //LC3151 Special Array I
-        //https://leetcode.com/problems/special-array-i/description/
+        // LC:3151 Special Array I
+        // https://leetcode.com/problems/special-array-i/description/
 
         if (nums.size() < 2) {
             return true;
