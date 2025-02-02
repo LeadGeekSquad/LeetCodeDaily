@@ -6,8 +6,8 @@ class Solution {
 public:
     bool check(vector<int>& nums) {
 
-        //LC1752 CheckIfArraySortedAndRotated
-        //https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+        // LC:1752 CheckIfArraySortedAndRotated
+        // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 
         /**
         int assume_flip_index = -1;
