@@ -8,6 +8,9 @@ class Solution {
 public:
     int longestMonotonicSubarray(vector<int>& nums) {
 
+        // LC:3105 Longest Strictly Increasing or Strictly Decreasing Subarray
+        // https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/
+
         //intuition: while iterating over nums from index 1, we compare the value with previous index.
         // if the elements are increasing we reset our decreasing_count to 1.
         // if the elements are decreasing we reset our increasing_count to 1.
