@@ -6,6 +6,10 @@ class Solution {
 public:
     int maxAscendingSum(vector<int>& nums) {
 
+        // LC:1800 Maximum Ascending Subarray Sum
+        // https://leetcode.com/problems/maximum-ascending-subarray-sum/description/
+
+
         //intuition: we will try to find the sum of the contiguous elements which are greater than previous element
         //if the increasing subarray sequence breaks, we update the max value and then reset the new subarray sequence beginning from that element
         //At the end we compare the max value incase if the subarray has ascending sequence
